@@ -1,4 +1,4 @@
-# Given a string, find the length of the longest substring without repeating characters.
+# Given a string, find the length of the longest substring without repeating characters
 
 input_string = input()
 
@@ -23,3 +23,10 @@ def longest_nonrepetitive_substring(string):
 
 result = longest_nonrepetitive_substring(input_string)
 print(result, len(result))
+
+# Test strings
+# "hzfjlzhdgqlmntoyrqpp"
+# "vmmjujwnkpgnawfuxxzt"
+# "tyvtifbvyjzllbsyggnw"
+# "qxzzpbjwnfjhslsyowgw"
+# "tzmfrlssjydyysdxiidw"
