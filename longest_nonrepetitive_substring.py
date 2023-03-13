@@ -1,4 +1,4 @@
-# Given a current_string, find the length of the longest substring without repeating characters.
+# Given a string, find the length of the longest substring without repeating characters.
 
 input_string = input()
 
@@ -11,10 +11,10 @@ for char in input_string:
     else:
         if len(current_string) > len(substring):
             substring = current_string
-        current_string = current_string.replace(current_string, char)
+        current_string = char
 else:
     if current_string == input_string or len(current_string) > len(substring):
         substring = current_string
 
-# prints first longest substring and length
+# prints longest substring and length (incase of two longest substrings, it will print first)
 print(substring, len(substring))
