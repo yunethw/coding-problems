@@ -18,3 +18,13 @@ tzmfrls 7
 >>> longest_palindrome('kayaking')
 kayak
 ```
+
+## :dart: [balanced parentheses](balanced_paranatheses.py)
+
+*When given a string containing brackets, check if the the input string is valid or not by checking if the opening and closing brackets are balanced*
+```python
+>>> isValid('()[{}]')
+True
+>>> isValid('([)]')
+False
+```
