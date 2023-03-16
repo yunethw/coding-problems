@@ -28,3 +28,13 @@ True
 >>> isValid('([)]')
 False
 ```
+
+## :dart: [two sum](two_sum.py)
+
+*When given a list of numbers, and a target number k, check if there are two numbers in the list that add up to k*
+```python
+>>> two_sum([1, 3, 5, -2], 8)
+True
+>>> two_sum([-2, -4, 6, 2], 5)
+False
+```
