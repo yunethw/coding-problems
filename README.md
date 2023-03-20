@@ -38,3 +38,14 @@ True
 >>> two_sum([-2, -4, 6, 2], 5)
 False
 ```
+
+## :dart: [pythagorean triples](pythagorean_triples.py)
+
+*When given a list of numbers, find if there exists a pythagorean triple in that list.*
+```python
+>>> py([3, 5, 12, 4, 14])
+True 
+# 3, 4, 5
+>>> py([6, 2, 12, 7, 14])
+False
+```
