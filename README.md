@@ -19,7 +19,7 @@ tzmfrls 7
 kayak
 ```
 
-## :dart: [balanced parentheses](balanced_parantheses.py)
+## :dart: [balanced parentheses](balanced_parentheses.py)
 
 *When given a string containing brackets, check if the the input string is valid or not by checking if the opening and closing brackets are balanced*
 ```python
